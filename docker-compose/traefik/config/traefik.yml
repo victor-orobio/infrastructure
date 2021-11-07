@@ -54,7 +54,7 @@ certificatesResolvers:
         entryPoint: web
   production:
     acme:
-      email: yvictor.ney@gmail.com  # TODO: Change this to your email
+      email: victor.ney@gmail.com  # TODO: Change this to your email
       storage: /ssl-certs/acme.json
       caServer: "https://acme-v02.api.letsencrypt.org/directory"
       httpChallenge:
